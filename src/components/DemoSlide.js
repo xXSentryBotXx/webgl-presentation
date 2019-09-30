@@ -16,7 +16,7 @@ export default class DemoSlide extends React.Component {
                 <Heading size={6} textColor="tertiary">
                     {title}
                 </Heading>
-                <Layout><iframe width="1280" height="720" src={src}></iframe></Layout>
+                <Layout><iframe title={title} width="1280" height="720" src={src}></iframe></Layout>
             </Slide>
         );
     }
